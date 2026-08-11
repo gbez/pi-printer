@@ -7,7 +7,7 @@ url = "https://fastly.picsum.photos/id/63/5000/2813.jpg?hmac=HvaeSK6WT-G9bYF_CyB
 img = Image.open(urllib.request.urlopen(url))
 
 my_profile = Profile()
-my_profile.data['media']['width']['pixel'] = 384
+my_profile.profile_data['media']['width']['pixel'] = 384
 # Initialize the serial printer on /dev/serial0
 # Match your printer's baud rate (usually 9600 or 19200)
 p = Serial(

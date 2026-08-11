@@ -12,7 +12,8 @@ p = Serial(
     bytesize=8,
     parity='N',
     stopbits=1,
-    timeout=1.0
+    timeout=1.0,
+    profile='PT280'
 )
 
 # Print an image (Pillow handles formatting/dithering automatically)
